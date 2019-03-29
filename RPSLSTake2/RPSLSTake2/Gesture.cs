@@ -9,6 +9,11 @@ namespace RPSLSTake2
     class Gesture
     {
         //member variables (Has A)
+        bool beatsPaper;
+        bool beatsScissors;
+        bool beatsLizard;
+        bool beatsSpock;
+
         Rock Rock;
         Paper Paper;
         Scissors Scissors;

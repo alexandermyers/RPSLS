@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace RPSLSTake2
 {
-    class Rock : Gesture
+    class Lizard
     {
-        // Member Variables
-        
+        // Variables
+
         // Constructor
-        public Rock()
+        public Lizard()
         {
-            beatsPaper = false;
+            beatsRock = false;
+            beatsPaper = true;
             beatsScissors = true;
-            beatsLizard = true;
             beatsSpock = false;
         }
         // Methods
