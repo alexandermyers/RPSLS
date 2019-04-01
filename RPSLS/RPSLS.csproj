@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}</ProjectGuid>
+    <ProjectGuid>{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RPSLSTake2</RootNamespace>
-    <AssemblyName>RPSLSTake2</AssemblyName>
+    <RootNamespace>RPSLS</RootNamespace>
+    <AssemblyName>RPSLS</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Computer.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Gesture.cs" />
     <Compile Include="Lizard.cs" />
@@ -51,8 +52,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rock.cs" />
+    <Compile Include="RuleDisplay.cs" />
     <Compile Include="Scissors.cs" />
     <Compile Include="Spock.cs" />
+    <Compile Include="Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

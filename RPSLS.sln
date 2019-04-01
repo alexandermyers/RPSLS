@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSLSTake2", "RPSLSTake2\RPSLSTake2.csproj", "{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSLS", "RPSLS\RPSLS.csproj", "{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99FD349E-5CA5-4E49-85FB-8D2EB2E1A206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEE300D-E513-41EA-A5A2-51EE9E5AC807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {42697F0E-82FD-44FB-8DBE-DBAEE32C779A}
+		SolutionGuid = {0408DC6C-9F4D-498F-AF7C-3D7E865488F2}
 	EndGlobalSection
 EndGlobal
